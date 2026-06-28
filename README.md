@@ -52,6 +52,6 @@ Grafana (Dashboard)
 
 ## Etapas
 
-- Instalação e Configuração do Ambiente: [Link Text](#sample-section).
+- Instalação e Configuração do Ambiente: [https://github.com/GuiHRB/Water_Level/blob/main/MANUAL.md](#setup-section).
 - Desenvolvimento no VScode: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
 - Projeto NODE-RED + InfluxDB + Grafana: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
