@@ -34,6 +34,12 @@ Para verificar se o WSL2 está ativo:
 ```powershell
 wsl --list --verbose
 ```
+
+Caso o Ubuntu não seja instalado, execute no **PowerShell como administrador**:
+
+```powershell
+wsl --install -d Ubuntu
+```
  
 ---
 
@@ -147,7 +153,7 @@ sudo chown -R 1883:1883 /home/$USER/mosquitto
 ### 5.2 Criar o arquivo de configuração
  
 ```bash
-nano mosquitto.conf
+sudo nano mosquitto.conf
 ```
  
 Cole o seguinte conteúdo:
