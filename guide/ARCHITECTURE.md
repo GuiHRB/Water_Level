@@ -63,6 +63,8 @@ Cada serviço roda isolado em seu próprio container Docker, dentro do Ubuntu, q
 
 O **Windows Subsystem for Linux 2** é uma camada de compatibilidade da Microsoft que permite rodar um kernel Linux real dentro do Windows, sem dual boot e sem máquina virtual tradicional. Ele usa o Hyper-V para criar uma VM leve e transparente.
 
+![Arquitetura WSL2](assets/WSL-2-Architecture.jpg)
+
 ### Por que é necessário
 
 O Docker precisa de um kernel Linux para funcionar — containers compartilham o kernel do sistema operacional host. No Windows puro não existe kernel Linux, então o WSL2 fornece esse ambiente.
