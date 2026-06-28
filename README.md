@@ -27,3 +27,24 @@ Grafana (Dashboard)
 ```
  
 ---
+## 🧰 Stack Utilizada
+ 
+| Serviço | Versão | Porta | Descrição |
+|---|---|---|---|
+| Mosquitto | latest | 1883 / 9001 | Broker MQTT |
+| Node-RED | latest | 1880 | Motor de integração |
+| InfluxDB | latest | 8086 | Banco de séries temporais |
+| Grafana | latest | 3000 | Visualização de dados |
+| Portainer CE | lts | 9000 | Gerenciamento Docker |
+ 
+---
+ 
+## 📦 Pré-requisitos
+ 
+- Windows 10/11
+- WSL2 com Ubuntu instalado
+- Docker instalado no Ubuntu
+- VSCode com extensão PlatformIO
+- ESP32 Dev Module
+- Sensor ultrassônico HC-SR04
+---
