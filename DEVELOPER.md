@@ -179,4 +179,21 @@ O timer não-bloqueante (`millis()`) verifica se já passaram 2 segundos desde a
 
 O `dtostrf` converte o `float` para `char[]` com 2 casas decimais antes de publicar — necessário porque o `client.publish` espera uma string, não um número.
 
+---
+
+### 4.8 Upload e teste
+
+1. Conecte o ESP32 via USB
+2. Clique na **seta →** na barra inferior do VSCode para fazer o upload
+
+Para validar que o Mosquitto está recebendo, no Ubuntu:
+ 
+```bash
+mosquitto_sub -h localhost -p 1883 -t "sensores/distancia"
+```
+ 
+Os valores de distância devem aparecer em tempo real.
+ 
+---
+
 
