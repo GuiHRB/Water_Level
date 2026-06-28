@@ -63,7 +63,7 @@ Cada serviço roda isolado em seu próprio container Docker, dentro do Ubuntu, q
 
 O **Windows Subsystem for Linux 2** é uma camada de compatibilidade da Microsoft que permite rodar um kernel Linux real dentro do Windows, sem dual boot e sem máquina virtual tradicional. Ele usa o Hyper-V para criar uma VM leve e transparente.
 
-![Arquitetura WSL2](assets/WSL-2-Architecture.jpg)
+![Arquitetura WSL2](https://github.com/GuiHRB/Water_Level/blob/main/assets/WSL-2-Architecture.jpg)
 
 ### Por que é necessário
 
@@ -143,9 +143,13 @@ Máquina Virtual:          Container Docker:
 
 Todos os containers foram criados com `--restart=always`. Isso instrui o Docker a reiniciar o container automaticamente sempre que o Docker daemon iniciar — ou seja, toda vez que você abre o Ubuntu e o Docker sobe, todos os serviços sobem junto automaticamente.
 
+![Docker](https://github.com/GuiHRB/Water_Level/blob/main/assets/win_docker_host-1.png)
+
 ---
 
 ## 4. Conceitos Fundamentais do Docker
+
+![Docker](https://github.com/GuiHRB/Water_Level/blob/main/assets/docker-storage.png)
 
 ### Image
 
@@ -221,6 +225,8 @@ docker stats
 ---
 
 ## 5. Portainer — Interface Visual do Docker
+
+![Portainer](https://github.com/GuiHRB/Water_Level/blob/main/assets/portainer.png)
 
 ### O que é
 
@@ -312,6 +318,8 @@ persistence_location /mosquitto/data/  # onde salva
 
 ## 7. Node-RED — O Motor de Integração
 
+![Node-RED](https://github.com/GuiHRB/Water_Level/blob/main/assets/nodered.png)
+
 ### O que é
 
 Plataforma de programação visual baseada em fluxos. Você conecta "nós" graficamente para criar integrações sem escrever código tradicional.
@@ -349,6 +357,8 @@ http://localhost:1880
 ---
 
 ## 8. InfluxDB — Banco de Dados de Séries Temporais
+
+![InfluxDB](https://github.com/GuiHRB/Water_Level/blob/main/assets/influxdb.png)
 
 ### Por que não usar PostgreSQL ou MySQL?
 
@@ -390,6 +400,8 @@ http://localhost:8086
 ---
 
 ## 9. Grafana — Visualização de Dados
+
+![Grafana](https://github.com/GuiHRB/Water_Level/blob/main/assets/grafana.png)
 
 ### O que é
 
@@ -507,11 +519,15 @@ Roteador (192.168.xxx.x)
 
 ## 11. ESP32 — O Dispositivo IoT
 
+![ESP32](https://github.com/GuiHRB/Water_Level/blob/main/assets/ESP32.webp)
+
 ### O que é
 
 Microcontrolador com WiFi e Bluetooth integrados, fabricado pela Espressif. É o dispositivo que lê os sensores e publica dados via MQTT.
 
 ### Sensor HC-SR04 — Ultrassônico
+
+![Sensor](https://github.com/GuiHRB/Water_Level/blob/main/assets/sensor.webp)
 
 O sensor mede distância usando ultrassom:
 
