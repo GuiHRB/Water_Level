@@ -1,7 +1,7 @@
 # Manual de Desenvolvimento — VScode e PlatformIO IDE
  
-> **IDE: VSCode
-> **Extensão: PlatformIO IDE
+> **IDE:** VSCode
+> **Extensão:** PlatformIO IDE
  
 ---
  
