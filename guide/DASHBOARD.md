@@ -52,6 +52,8 @@ O flow segue a estrutura:
 ## 3. Configurar o nó MQTT in
  
 Duplo clique no nó **mqtt in** e preencha:
+
+![MQTTIN](https://github.com/GuiHRB/Water_Level/blob/main/assets/mqtt_1.webp)
  
 | Campo | Valor |
 |---|---|
@@ -61,6 +63,8 @@ Duplo clique no nó **mqtt in** e preencha:
 | Name | `Dados` |
  
 Na configuração do servidor:
+
+![MQTTIN](https://github.com/GuiHRB/Water_Level/blob/main/assets/mqtt_2.webp)
  
 | Campo | Valor |
 |---|---|
@@ -77,6 +81,8 @@ Clique **Update** → **Done**.
 O nó `function` recebe a distância bruta do sensor e calcula três métricas derivadas antes de gravar no InfluxDB.
  
 Duplo clique no nó **function** e cole o seguinte código na aba **On Message**:
+
+![function](https://github.com/GuiHRB/Water_Level/blob/main/assets/function.webp)
  
 ```javascript
 msg.payload = [{
@@ -116,6 +122,8 @@ Clique **Done**.
 Duplo clique no nó **influxdb out**.
  
 ### Configurar a conexão (ícone de lápis ao lado de Server)
+
+![influx](https://github.com/GuiHRB/Water_Level/blob/main/assets/influx_1.webp)
  
 | Campo | Valor |
 |---|---|
@@ -126,6 +134,8 @@ Duplo clique no nó **influxdb out**.
 Clique **Update**.
  
 ### Configurar o nó
+
+![influx](https://github.com/GuiHRB/Water_Level/blob/main/assets/influx_@.webp)
  
 | Campo | Valor |
 |---|---|
@@ -141,6 +151,8 @@ Clique **Done** → **Deploy**.
  ## 6. Verificar dados no InfluxDB
  
 Acesse `http://localhost:8086` → **Data Explorer**.
+
+![influx](https://github.com/GuiHRB/Water_Level/blob/main/assets/influx.webp)
  
 Selecione:
 - **FROM:** `nodered`
@@ -161,6 +173,8 @@ Clique **Submit** — os pontos devem aparecer no gráfico.
 ---
 
 ## 7. Configurar o Grafana
+
+![grafana](https://github.com/GuiHRB/Water_Level/blob/main/assets/grafana.webp)
  
 Acesse `http://localhost:3000` (login: `admin` / `admin`).
  
