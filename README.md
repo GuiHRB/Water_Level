@@ -50,8 +50,21 @@ Grafana (Dashboard)
   
 ---
 
-## Etapas
+## Documentação
 
+- Manual de explicação : 
 - Instalação e Configuração do Ambiente: [MANUAL](https://github.com/GuiHRB/Water_Level/blob/main/MANUAL.md#setup-section)
 - Desenvolvimento no VScode: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
 - Projeto NODE-RED + InfluxDB + Grafana: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+
+---
+
+## 🛠️ Tecnologias
+ 
+- **ESP32** — microcontrolador WiFi
+- **HC-SR04** — sensor ultrassônico
+- **MQTT** — protocolo de mensagens IoT
+- **Docker** — containerização dos serviços
+- **WSL2** — ambiente Linux no Windows
+- **PlatformIO** — IDE para desenvolvimento embarcado
+---
