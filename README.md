@@ -52,10 +52,10 @@ Grafana (Dashboard)
 
 ## Documentação
 
-- Manual de explicação : [EXPLICAÇÃO](https://github.com/GuiHRB/Water_Level/blob/main/EXPLICATION.md#explication-section)
-- Instalação e Configuração do Ambiente: [MANUAL](https://github.com/GuiHRB/Water_Level/blob/main/MANUAL.md#setup-section)
-- Desenvolvimento no VScode: [CODE](https://github.com/GuiHRB/Water_Level/blob/main/DEVELOPER.md#code-section)
-- Projeto NODE-RED + InfluxDB + Grafana: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+- Manual de explicação : [ARQUITETURA](https://github.com/GuiHRB/Water_Level/blob/main/guide/ARCHITECTURE.md#explication-section)
+- Instalação e Configuração do Ambiente: [SETUP](https://github.com/GuiHRB/Water_Level/blob/main/guide/SETUP.md#setup-section)
+- Desenvolvimento no VScode: [CODE](https://github.com/GuiHRB/Water_Level/blob/main/guide/DEVELOPER.md#code-section)
+- Projeto NODE-RED + InfluxDB + Grafana: [DASHBOARD](https://github.com/GuiHRB/Water_Level/blob/main/guide/DASHBOARD.md#dashboard-section).
 
 ---
 
