@@ -23,7 +23,7 @@
 
 ## 2. Configurar o platformio.ini
  
-Dentro do terminal Ubuntu, execute os comandos abaixo em sequência:
+Escreva esse código:
  
 ```ini
 [env:esp32dev]
