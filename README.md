@@ -47,4 +47,11 @@ Grafana (Dashboard)
 - VSCode com extensão PlatformIO
 - ESP32 Dev Module
 - Sensor ultrassônico HC-SR04
+  
 ---
+
+## Etapas
+
+- Instalação e Configuração do Ambiente: [Link Text](#sample-section).
+- Desenvolvimento no VScode: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+- Projeto NODE-RED + InfluxDB + Grafana: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
